@@ -4,6 +4,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Run the bash scripts in the `installation-scripts` directory
-bash "$SCRIPT_DIR/installation-scripts/01_rust.bash"
-bash "$SCRIPT_DIR/installation-scripts/02_python.bash"
-bash "$SCRIPT_DIR/installation-scripts/03_go.bash"
+for script in "$SCRIPT_DIR"/installation-scripts/*.bash; do
+    echo "Running $(basename "$script")..."
+    "$script"
+done
