@@ -13,3 +13,9 @@ if command -v cargo-binstall >/dev/null 2>&1; then
 else
     cargo install cargo-binstall --locked
 fi
+
+cargo binstall mise
+
+if command -v mise >/dev/null 2>&1; then
+    mise use -g usage
+fi
