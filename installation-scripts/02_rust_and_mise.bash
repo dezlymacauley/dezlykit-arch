@@ -14,6 +14,8 @@ else
     cargo install cargo-binstall --locked
 fi
 
+cargo binstall sqlx-cli
+
 cargo binstall mise
 
 if command -v mise >/dev/null 2>&1; then
