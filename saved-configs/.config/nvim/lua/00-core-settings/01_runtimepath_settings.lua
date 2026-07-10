@@ -1,0 +1,2 @@
+-- This tells the plugin `nvim-treesitter`, where to find installed parsers
+-- vim.opt.runtimepath:append("~/.local/share/nvim/site")
