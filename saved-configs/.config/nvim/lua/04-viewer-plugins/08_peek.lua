@@ -17,7 +17,7 @@ return {
 
             -- Task 1: Load the default configuration of the plugin
             require("peek").setup({
-                app = { "firefox", "--new-window" }
+                app = { "chromium", "--new-window" }
             })
 
             -- Task 2: Create the commands `:PeekOpen` and `:PeekClose`
