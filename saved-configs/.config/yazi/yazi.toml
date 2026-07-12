@@ -1,0 +1,45 @@
+# SECTION: Manager Settings
+
+[mgr]
+# Uncomment thes line if you want Yazi to show hidden files like `.zshrc`
+# show_hidden = true
+
+# This will sort files like this: 
+# 1.md, 2.md, 10.md
+# Instead of 1.md, 10.md, 2.md
+sort_by = "natural"
+
+# Controls how much space each of the three columns uses
+ratio = [1, 4, 1]
+
+# Displays the size of the file on the right.
+linemode = "size"
+
+#______________________________________________________________________________
+
+# SECTION: Defining which programs have the ability to open files 
+
+[opener]
+firefox = [
+	{ run = "firefox %s", orphan = true, for = "unix" },
+]
+mpv = [
+	{ run = "mpv %s", orphan = true, for = "unix" },
+]
+imv = [
+	{ run = "imv %s", orphan = true, for = "unix" },
+]
+
+#______________________________________________________________________________
+
+# SECTION: Define what programs yazi should use to open a file type
+
+[open]
+prepend_rules = [
+	{ url = "*.html", use = "firefox" },
+	{ mime = "image/*", use = "imv" },
+    { url = "*.pdf", use = "firefox" },
+	{ mime = "video/*", use = "mpv" },
+]
+
+#______________________________________________________________________________
