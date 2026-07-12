@@ -1,0 +1,15 @@
+background = "#000000"
+background-opacity = 0.75
+
+selection-background = "#610079"
+selection-foreground = "#ffffff"
+
+font-family = "MesloLGM Nerd Font"
+font-size = 14
+
+theme = "Kitty Default"
+
+mouse-hide-while-typing = true
+
+# Disables the confirmation prompt when closing the terminal
+confirm-close-surface = false
