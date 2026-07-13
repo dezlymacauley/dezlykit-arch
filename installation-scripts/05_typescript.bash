@@ -23,4 +23,7 @@ deno install --global -f -A --allow-scripts svelte-language-server
 # For Tailwind CSS, its tailwindcss-language-server
 deno install --global -f -A --allow-scripts \
     --name tailwindcss-language-server \
-    @tailwindcss/language-server
+    npm:@tailwindcss/language-server/tailwindcss-language-server
+
+# To uninstall a program
+# deno uninstall --global tailwindcss-language-server

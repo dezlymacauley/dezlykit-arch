@@ -259,7 +259,7 @@ vim.lsp.config(
     "tailwindcss",
     {
         cmd = { "tailwindcss-language-server", "--stdio" },
-        filetypes = { "css", "svelte", "typescriptreact" },
+        filetypes = { "html", "css", "svelte" },
     }
 )
 
