@@ -2,6 +2,8 @@
 
 sudo pacman -S --needed --noconfirm docker
 
+sudo pacman -S --needed --noconfirm docker-buildx
+
 sudo pacman -S --needed --noconfirm docker-compose
 
 sudo groupadd -f docker 
