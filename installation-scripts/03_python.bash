@@ -13,3 +13,5 @@ uv tool install sqruff@latest
 uv tool install pgcli@latest
 
 uv tool install litecli@latest
+
+uv tool install cmake-language-server
