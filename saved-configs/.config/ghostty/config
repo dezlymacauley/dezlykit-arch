@@ -1,15 +1,19 @@
-background = "#000000"
-background-opacity = 0.75
-
-selection-background = "#610079"
-selection-foreground = "#ffffff"
+# command = "fish --login"
 
 font-family = "MesloLGM Nerd Font"
-font-size = 14
+font-size = 15
 
+background = #000000
 theme = "Kitty Default"
+selection-background = #610079
+selection-foreground = #ffffff
+
+background-image = /home/dezlymacauley/.dezlykit-assets/white_haired_punk.png
+background-image-fit = cover
+background-image-opacity = 0.04
 
 mouse-hide-while-typing = true
+confirm-close-surface = true
 
-# Disables the confirmation prompt when closing the terminal
-confirm-close-surface = false
+# The line below helps Neovim provide syntax highlighting for this file
+# vim: ft=dosini
