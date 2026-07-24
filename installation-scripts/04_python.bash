@@ -14,4 +14,6 @@ uv tool install pgcli@latest
 
 uv tool install litecli@latest
 
-uv tool install cmake-language-server
+uv tool install cmake-language-server@latest
+
+uv tool install cpplint@latest
